@@ -35,7 +35,7 @@ class CsvExport
     public function __construct(?array $headers = [], ?array $rows = [], ?string $fileName = null)
     {
         $this->setHeaders($headers);
-        $this->setHeaders($rows);
+        $this->setRows($rows);
         $this->setFileName($fileName);
     }
 
